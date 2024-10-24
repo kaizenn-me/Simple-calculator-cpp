@@ -1,7 +1,7 @@
 ## Comprehensive Calculator Using C++ </>
 
 
-```markdown
+
 
 
 Welcome to the **Comprehensive Calculator**! This charming program helps you with various calculations in chemistry, biology, finance, physics, programming, and even fetches real-time currency exchange rates! 🌍✨
