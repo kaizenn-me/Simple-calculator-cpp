@@ -1,6 +1,6 @@
 #include <iostream>
 #include <curl/curl.h>
-#include <cmath>  // Untuk fungsi pow() dan log10()
+#include <cmath>  // For pow() and log10()
 
 using namespace std;
 
@@ -40,7 +40,7 @@ void getCurrencyExchange() {
     curl_global_init(CURL_GLOBAL_DEFAULT);
     curl = curl_easy_init();
     
-    if(curl) {
+    if (curl) {
         string apiUrl = "https://api.exchangerate-api.com/v4/latest/USD";
         curl_easy_setopt(curl, CURLOPT_URL, apiUrl.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeCallback);
@@ -48,7 +48,7 @@ void getCurrencyExchange() {
         
         res = curl_easy_perform(curl);
 
-        if(res != CURLE_OK)
+        if (res != CURLE_OK)
             cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << endl;
         else
             cout << "API Response: " << responseString << endl;
@@ -185,7 +185,7 @@ void kineticEnergy() {
 }
 
 // Main menu
-void menu() {
+void menu() {  // Removed the extra semicolon here
     int choice;
     do {
         cout << "\n--- Comprehensive Calculator ---\n";
@@ -230,4 +230,9 @@ void menu() {
             default: cout << "Invalid option. Please try again.\n"; break;
         }
     } while (choice != 15);  
+}
+
+int main() {
+    menu();  // Call the menu function
+    return 0;
 }
