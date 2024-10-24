@@ -51,12 +51,14 @@ Welcome to the **Comprehensive Calculator**! This charming program helps you wit
 
 ### Windows
 
-```bash
+
 1. Install MinGW: Download from [MinGW website](https://sourceforge.net/projects/mingw/).
 2. Install `libcurl`: Get the Windows binaries from [curl official website](https://curl.se/windows/).
 3. Add `libcurl`: Copy headers and libraries to MinGW folders.
 4. Compile and Run:
-   g++ -o calculator calculator.cpp -lcurl
+
+```bash
+ g++ -o calculator calculator.cpp -lcurl
    ./calculator.exe
 ```
 
