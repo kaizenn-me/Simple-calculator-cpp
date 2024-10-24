@@ -64,12 +64,14 @@ Welcome to the **Comprehensive Calculator**! This charming program helps you wit
 
 ### Linux
 
-```bash
-1. Install Dependencies:
-   sudo apt-get update
-   sudo apt-get install g++ libcurl4-openssl-dev
 
-2. Compile and Run:
+1. Install Dependencies:
+```bash
+    sudo apt-get update
+   sudo apt-get install g++ libcurl4-openssl-dev
+```
+3. Compile and Run:
+```bash
    g++ -o calculator calculator.cpp -lcurl
    ./calculator
 ```
