@@ -1,7 +1,9 @@
-```markdown
-# 🧮 Comprehensive Calculator
+Tentu! Berikut adalah versi README yang lebih imut dengan judul di atas dan bagian tutorial yang ditampilkan dalam box:
 
-Welcome to the **Comprehensive Calculator**! This handy little program assists you with various calculations in chemistry, biology, finance, physics, programming, and even fetches real-time currency exchange rates! 🌍✨
+```markdown
+# 🌈 Cute Comprehensive Calculator
+
+Welcome to the **Comprehensive Calculator**! This charming program helps you with various calculations in chemistry, biology, finance, physics, programming, and even fetches real-time currency exchange rates! 🌍✨
 
 ## 🌟 Features
 
@@ -48,31 +50,26 @@ Welcome to the **Comprehensive Calculator**! This handy little program assists y
 
 ### Windows
 
-1. **Install MinGW:** Download from [MinGW website](https://sourceforge.net/projects/mingw/).
-2. **Install `libcurl`:** Get the Windows binaries from [curl official website](https://curl.se/windows/).
-3. **Add `libcurl`:** Copy headers and libraries to MinGW folders.
-4. **Compile and Run:**
-
-   ```bash
+```bash
+1. Install MinGW: Download from [MinGW website](https://sourceforge.net/projects/mingw/).
+2. Install `libcurl`: Get the Windows binaries from [curl official website](https://curl.se/windows/).
+3. Add `libcurl`: Copy headers and libraries to MinGW folders.
+4. Compile and Run:
    g++ -o calculator calculator.cpp -lcurl
    ./calculator.exe
-   ```
+```
 
 ### Linux
 
-1. **Install Dependencies:**
-
-   ```bash
+```bash
+1. Install Dependencies:
    sudo apt-get update
    sudo apt-get install g++ libcurl4-openssl-dev
-   ```
 
-2. **Compile and Run:**
-
-   ```bash
+2. Compile and Run:
    g++ -o calculator calculator.cpp -lcurl
    ./calculator
-   ```
+```
 
 ## 🎉 How to Use
 
@@ -109,7 +106,7 @@ Access real-time currency rates using `libcurl` from `exchangerate-api.com`. Mak
 Developed by Kaizenn-me. All rights reserved © 2024. For educational and personal use only. Enjoy calculating! 🎉
 ```
 
-### Key Improvements:
-- Enhanced structure for readability.
-- Added playful emojis for a friendly tone.
-- Kept the essential details while improving overall clarity.
+### Key Features:
+- Added a cute title at the top.
+- Tutorial instructions are clearly boxed for better visibility.
+- Retained the friendly tone and essential information.
