@@ -1,18 +1,38 @@
 ```markdown
 # 🧮 Comprehensive Calculator
 
-Welcome to the **Comprehensive Calculator**! This little program helps you with various calculations in chemistry, biology, finance, physics, programming, and even fetches real-time currency exchange rates! 🌍✨
+Welcome to the **Comprehensive Calculator**! This handy little program assists you with various calculations in chemistry, biology, finance, physics, programming, and even fetches real-time currency exchange rates! 🌍✨
 
 ## 🌟 Features
 
-- **Chemistry:** Molecular Weight, Stoichiometry, Molarity, Reaction Rate
-- **Thermodynamics:** Gibbs Free Energy
-- **Electrochemistry:** Nernst Equation
-- **Bio Lab:** Body Mass Index (BMI)
-- **Finance:** Compound Interest
-- **Programming:** Decimal to Binary, ASCII to Char, Char to ASCII
-- **Physics:** Kinetic Energy
-- **Currency Exchange:** Get live rates with a fun API!
+- **Chemistry:** 
+  - Molecular Weight
+  - Stoichiometry
+  - Molarity
+  - Reaction Rate
+
+- **Thermodynamics:** 
+  - Gibbs Free Energy
+
+- **Electrochemistry:** 
+  - Nernst Equation
+
+- **Bio Lab:** 
+  - Body Mass Index (BMI)
+
+- **Finance:** 
+  - Compound Interest
+
+- **Programming:** 
+  - Decimal to Binary
+  - ASCII to Char
+  - Char to ASCII
+
+- **Physics:** 
+  - Kinetic Energy
+
+- **Currency Exchange:** 
+  - Get live rates with a fun API!
 
 ## 📋 Requirements
 
@@ -56,7 +76,7 @@ Welcome to the **Comprehensive Calculator**! This little program helps you with 
 
 ## 🎉 How to Use
 
-Just run the program and choose your desired calculator from the menu:
+Simply run the program and select your desired calculator from the menu:
 
 ```
 --- Comprehensive Calculator ---
@@ -78,18 +98,18 @@ Just run the program and choose your desired calculator from the menu:
 Select an option (1-15):
 ```
 
-Pick a number and hit Enter! It’s that simple! 🎈
+Just pick a number and hit Enter! It’s that simple! 🎈
 
 ## 🌐 API Integration
 
-Get real-time currency rates using `libcurl` from the `exchangerate-api.com`. Just ensure you're connected to the internet! 💻🌐
+Access real-time currency rates using `libcurl` from `exchangerate-api.com`. Make sure you're connected to the internet! 💻🌐
 
 ## 📝 License
 
 Developed by Kaizenn-me. All rights reserved © 2024. For educational and personal use only. Enjoy calculating! 🎉
 ```
 
-### Key Changes:
-- Added emojis for a playful touch.
-- Used shorter sentences and bullet points for clarity.
-- Retained essential information while making it more approachable.
+### Key Improvements:
+- Enhanced structure for readability.
+- Added playful emojis for a friendly tone.
+- Kept the essential details while improving overall clarity.
