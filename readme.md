@@ -107,11 +107,5 @@ Just pick a number and hit Enter! It’s that simple! 🎈
 Access real-time currency rates using `libcurl` from `exchangerate-api.com`. Make sure you're connected to the internet! 💻🌐
 
 ## 📝 License
-
-Developed by Kaizenn-me. All rights reserved © 2024. For educational and personal use only. Enjoy calculating! 🎉
-```
-
-### Key Features:
-- Added a cute title at the top.
-- Tutorial instructions are clearly boxed for better visibility.
-- Retained the friendly tone and essential information.
+Educational Community License v2.0
+The Educational Community License version 2.0 ("ECL") is like a cozy blanket for learning! It's a friendly twist on the Apache 2.0 license, made extra special to meet the needs of our lovely education communities. In section 3, we’ve sprinkled a bit of magic to tailor the patent grant just for them!
