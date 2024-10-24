@@ -1,4 +1,3 @@
-Tentu! Berikut adalah versi README yang lebih imut dengan judul di atas dan bagian tutorial yang ditampilkan dalam box:
 
 ```markdown
 # 🌈 Cute Comprehensive Calculator
